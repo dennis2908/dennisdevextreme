@@ -11,5 +11,5 @@ docker compose up
 ```
 
 ```
-video : 
+video : https://www.youtube.com/watch?v=K6W15VaIj0s
 ```
