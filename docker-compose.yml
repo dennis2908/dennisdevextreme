@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  frontendangulardevextreme:
+    container_name: frontendangulardevextreme
+    image: frontendangulardevextreme/dm:1.0
+    build: .
+    ports:
+      - "4200:4200"
+    # command: ng serve --host 0.0.0.0 --poll=2000  
+volumes:
+  pgdata: {}
